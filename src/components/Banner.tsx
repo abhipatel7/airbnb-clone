@@ -1,5 +1,5 @@
-import { FC } from 'react'
-import Image from 'next/image'
+import { FC } from 'react';
+import Image from 'next/image';
 
 const Banner: FC = () => {
   return (
@@ -12,7 +12,7 @@ const Banner: FC = () => {
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

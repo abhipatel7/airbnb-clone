@@ -1,11 +1,11 @@
-import { FC } from 'react'
-import Image from 'next/image'
+import { FC } from 'react';
+import Image from 'next/image';
 import {
   GlobeAltIcon,
   MenuIcon,
   SearchIcon,
   UserCircleIcon,
-} from '@heroicons/react/solid'
+} from '@heroicons/react/solid';
 
 const Header: FC = () => {
   return (
@@ -39,7 +39,7 @@ const Header: FC = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
