@@ -20,3 +20,16 @@ export interface ISearchResult {
   long: number;
   lat: number;
 }
+
+export interface IViewPort {
+  width: string;
+  height: string;
+  latitude: number;
+  longitude: number;
+  zoom: number;
+}
+
+export interface ILocation {
+  latitude: number;
+  longitude: number;
+}

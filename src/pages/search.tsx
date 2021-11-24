@@ -6,6 +6,7 @@ import { ParsedUrlQueryInput } from 'querystring';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import InfoCard from '../components/InfoCard';
+import MapBox from '../components/MapBox';
 import { ISearchResult } from '../interfaces';
 
 interface Props {
@@ -64,6 +65,10 @@ const Search: NextPage<Props> = ({ searchResults }) => {
           {searchResults?.map((result: ISearchResult) => (
             <InfoCard key={result.title} result={result} />
           ))}
+        </section>
+
+        <section className="hidden xl:inline-flex xl:min-w-[600px]">
+          <MapBox searchResults={searchResults} />
         </section>
       </main>
 
